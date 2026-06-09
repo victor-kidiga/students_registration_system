@@ -1,0 +1,26 @@
+[
+    {
+        "course_id": "001",
+        "course_name": "Data science",
+        "trainer": "Mr. David",
+        "capacity": 13
+    },
+    {
+        "course_id": "002",
+        "course_name": "Software Engineering",
+        "trainer": "Mr Thomas",
+        "capacity": 12
+    },
+    {
+        "course_id": "003",
+        "course_name": "Computer Science",
+        "trainer": "Mrs Jane",
+        "capacity": 10
+    },
+    {
+        "course_id": "004",
+        "course_name": "React",
+        "trainer": "Mr Juma",
+        "capacity": 9
+    }
+]

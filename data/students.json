@@ -1,0 +1,47 @@
+[
+    {
+        "student_id": "STU001",
+        "name": "Alice Johnson",
+        "email": "alice@email.com",
+        "phone_number": "0711111321",
+        "registration_dates": {
+            "001": "2026-06-09 19:47:38",
+            "004": "2026-06-09 20:04:20"
+        }
+    },
+    {
+        "student_id": "STU002",
+        "name": "Jacob Nyale",
+        "email": "Jacob@email.com",
+        "phone_number": "0766666666",
+        "registration_dates": {
+            "003": "2026-06-09 20:04:57"
+        }
+    },
+    {
+        "student_id": "STU003",
+        "name": "John Doe",
+        "email": "john@email.com",
+        "phone_number": "0744444444",
+        "registration_dates": {
+            "002": "2026-06-09 20:06:41",
+            "004": "2026-06-09 20:07:37"
+        }
+    },
+    {
+        "student_id": "STU004",
+        "name": "Bob Smith",
+        "email": "bob@email.com",
+        "phone_number": "0745454545",
+        "registration_dates": {
+            "002": "2026-06-09 20:05:26"
+        }
+    },
+    {
+        "student_id": "005",
+        "name": "Ethan Williams",
+        "email": "ethan@email.com",
+        "phone_number": "0789898989",
+        "registration_dates": {}
+    }
+]
