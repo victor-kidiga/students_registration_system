@@ -36,3 +36,15 @@ class SchoolSystem:
         self.students.append(student)
 
         print("Student added successfully")
+    def view_students_in_course(self):
+
+     course_id = input("Course ID: ")
+
+    for student_id, courses in self.registrations.items():
+
+        if course_id in courses:
+
+            for student in self.students:
+
+                if student.student_id == student_id:
+                    student.display()
