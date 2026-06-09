@@ -38,13 +38,28 @@ class SchoolSystem:
         print("Student added successfully")
     def view_students_in_course(self):
 
-     course_id = input("Course ID: ")
+        course_id = input("Course ID: ")
 
-    for student_id, courses in self.registrations.items():
+        for student_id, courses in self.registrations.items():
 
-        if course_id in courses:
+            if course_id in courses:
 
-            for student in self.students:
+                for student in self.students:
 
-                if student.student_id == student_id:
-                    student.display()
+                    if student.student_id == student_id:
+                        student.display()
+    def view_courses_for_student(self):
+
+        student_id = input("Student ID: ")
+
+        if student_id not in self.registrations:
+            print("No registrations found")
+            return
+
+        for course_id in self.registrations[student_id]:
+
+            for course in self.courses:
+
+                if course.course_id == course_id:
+                    course.display()
+   
