@@ -62,4 +62,7 @@ class SchoolSystem:
 
                 if course.course_id == course_id:
                     course.display()
-   
+    def save_data(self):
+        pass
+    def load_data(self):
+        pass
